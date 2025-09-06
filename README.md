@@ -1,10 +1,10 @@
-Titanic Survival Prediction
+## Titanic Survival Prediction
 
 This project demonstrates a complete machine learning pipeline for predicting survival on the Titanic, using a classic dataset. It covers data loading, preprocessing (handling missing values, encoding categorical features), model training (Random Forest Classifier), and evaluation.
 
 This project is suitable for showcasing fundamental machine learning skills on your GitHub profile.
 
-Table of Contents
+## Table of Contents
 
 •	Project Overview
 
@@ -24,11 +24,11 @@ Table of Contents
 
 •	License
 
-Project Overview
+## Project Overview
 
 The goal of this project is to predict whether a passenger survived the Titanic disaster based on various features such as their age, gender, passenger class, and more. A Random Forest Classifier is used for this binary classification task.
 
-The pipeline includes:
+## The pipeline includes:
 
 1.	Data Loading: Reading the train.csv dataset.
 
@@ -44,7 +44,7 @@ o	Dropping irrelevant columns ('PassengerId', 'Name', 'Ticket', 'Cabin').
 
 4.	Model Evaluation: Assessing the model's performance using accuracy score and a classification report on a held-out test set.
 
-Dataset
+## Dataset
 
 The dataset used is the famous Titanic - Machine Learning from Disaster dataset from Kaggle.
 
@@ -74,7 +74,7 @@ titanic-survival-prediction/
 
 
 
-Features Used
+## Features Used
 
 The following features from the dataset are used for prediction after preprocessing:
 
@@ -96,7 +96,7 @@ The following features from the dataset are used for prediction after preprocess
 
 The target variable is Survived (0 = No, 1 = Yes).
 
-Installation
+## Installation
 
 1.	Clone the repository (or create the files manually as described above).
 
@@ -112,11 +112,11 @@ Installation
 
 6.	python -m venv venv
 
-7.	# On Windows:
+7.	### On Windows:
 
 8.	.\venv\Scripts\activate
 
-9.	# On macOS/Linux:
+9.	### On macOS/Linux:
 
 10.	source venv/bin/activate
 
@@ -128,7 +128,7 @@ Installation
 
 
 
-Usage
+## Usage
 
 To run the prediction script:
 
@@ -148,7 +148,7 @@ The script will:
 
 •	Evaluate the model's performance on the test set and print the accuracy and classification report to the console.
 
-Results
+## Results
 
 The script will output the model's accuracy and a detailed classification report, which includes precision, recall, and f1-score for both 'Survived' (1) and 'Not Survived' (0) classes.
 
@@ -160,7 +160,7 @@ Model Accuracy: 0.8212
 
 
 
-Classification Report:
+## Classification Report:
 
               precision    recall  f1-score   support
 
@@ -184,7 +184,7 @@ weighted avg       0.82      0.82      0.82       179
 
 
 
-Dependencies
+## Dependencies
 
 The project relies on the following Python libraries:
 
@@ -200,7 +200,7 @@ Contributing
 
 Feel free to fork this repository, open issues, or submit pull requests to improve the code or add new features (e.g., hyperparameter tuning, different models, more advanced feature engineering).
 
-License
+## License
 
 This project is open-sourced under the MIT License. See the LICENSE file (if you choose to add one) for more details.
 
